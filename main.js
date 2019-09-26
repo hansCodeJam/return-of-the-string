@@ -1,26 +1,36 @@
 function capitalize(str) {
-  return str.toUpperCase():
+  return str.toUpperCase();
 }
 
-function exclaim() {
+function exclaim(str) {
+  return str + "!";
 }
 
-function firstCharacter() {
+function firstCharacter(str) {
+  return str[0];
 }
 
-function lastCharacter() {
+function lastCharacter(str) {
+  let last = str.length - 1;
+  return str[last];
 }
 
-function oneCharacter() {
+function oneCharacter(str, num) {
+  return str[num];
+} 
+
+function twoCharacters(str, num1, num2) {
+  return str[num1] + str[num2];
 }
 
-function twoCharacters() {
+function initials(str) {
+  let index = str.indexOf(' ');
+  return str[0] "." + str[index + 1] + ".";
 }
 
-function initials() {
-}
-
-function yeller() {
+function yeller(str) {
+  let cap = capitalize(str);
+  return exclaim(cap);
 }
 
 
