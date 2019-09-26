@@ -1,4 +1,5 @@
-function capitalize() {
+function capitalize(str) {
+  return str.toUpperCase():
 }
 
 function exclaim() {
